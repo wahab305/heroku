@@ -4,7 +4,7 @@ const express = require('express');
 const app = express();
 
 app.get('/', (req,res) => {
-    res.send({"Heroku is amazing"});
+    res.send({ 'Heroku is amazing' });
 });
 
 const PORT = process.env.PORT || 5000;
